@@ -8,7 +8,7 @@ pub fn main() {
 
     foo::foo_gen();
 
-    println!("Hello, world!");
+    println!("Hello, {}", lib_gen() + foo::foo_gen());
 }
 
 pub fn lib_gen() -> u8 {
