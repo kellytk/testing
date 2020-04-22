@@ -1,4 +1,4 @@
-mod foo;
+pub mod foo;
 
 #[cfg(test)]
 mod lib_test;
