@@ -5,6 +5,4 @@ edition = "2018"
 
 [dependencies]
 
-[[binary]]
-
 [lib]
